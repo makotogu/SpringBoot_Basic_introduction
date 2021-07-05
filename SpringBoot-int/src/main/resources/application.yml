@@ -1,0 +1,23 @@
+server:
+  port: 8081
+
+person:
+  name: zhangsan
+  age: 20
+  address:
+    - beijing
+    - shanghai
+
+name: lisi
+
+
+person2:
+  name: ${name}
+  age: 15
+
+address:
+  - beijing
+  - shanghai
+
+msg1: 'hello \n world'
+msg2: "hello \n world"
