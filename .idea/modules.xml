@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringBoot.iml" filepath="$PROJECT_DIR$/.idea/SpringBoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-MyBatis/SpringBoot-MyBatis.iml" filepath="$PROJECT_DIR$/SpringBoot-MyBatis/SpringBoot-MyBatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-Redis/SpringBoot-Redis.iml" filepath="$PROJECT_DIR$/SpringBoot-Redis/SpringBoot-Redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-condition/SpringBoot-condition.iml" filepath="$PROJECT_DIR$/SpringBoot-condition/SpringBoot-condition.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-config/SpringBoot-config.iml" filepath="$PROJECT_DIR$/SpringBoot-config/SpringBoot-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-helloworld/SpringBoot-helloworld.iml" filepath="$PROJECT_DIR$/SpringBoot-helloworld/SpringBoot-helloworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-int/SpringBoot-int.iml" filepath="$PROJECT_DIR$/SpringBoot-int/SpringBoot-int.iml" />
