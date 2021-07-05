@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/SpringBoot-profiles/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot-config/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot-test/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-Redis/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-MyBatis/pom.xml" />
       </list>
     </option>
   </component>

@@ -138,3 +138,22 @@ person:
      * @RunWith(SpringRunner.class)
      * @SpringBootTest(classes = 启动类.class)
   5. 编写测试方法
+
+## SpringBoot整合Redis
+
+* 步骤
+  1. 搭建SpringBoot工程
+  2. 引入redis起步依赖
+  3. 配置redis相关属性
+  4. 注入redisTemplate模板
+  5. 编写测试方法、测试
+
+## SpringBoot整合MyBatis
+
+* 步骤
+  1. 搭建SpringBoot工程
+  2. 引入mybatis起步依赖，添加mysql驱动
+  3. 编写DataSource和mybatis相关配置
+  4. 定义表和实体类
+  5. 编写dao和mapper文件/纯注解开发
+  6. 测试
