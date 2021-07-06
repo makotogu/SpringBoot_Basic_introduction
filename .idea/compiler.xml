@@ -6,29 +6,37 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SpringBoot-test" />
         <module name="SpringBoot-config" />
         <module name="SpringBoot-MyBatis" />
-        <module name="SpringBoot-enable" />
-        <module name="SpringBoot-enable-other" />
         <module name="SpringBoot-helloworld" />
         <module name="redis-spring-boot-starter" />
+        <module name="SpringBoot-profiles" />
+        <module name="SpringBoot-test" />
+        <module name="SpringBoot-listener" />
+        <module name="SpringBoot-Admin-client" />
+        <module name="SpringBoot-enable" />
+        <module name="SpringBoot-enable-other" />
+        <module name="SpringBoot-actuator" />
+        <module name="SpringBoot-Admin-server" />
         <module name="SpringBoot-Redis" />
         <module name="redis-spring-boot-autoconfigure" />
         <module name="SpringBoot-int" />
-        <module name="SpringBoot-profiles" />
         <module name="SpringBoot-condition" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
       <module name="redis-spring-boot-autoconfigure" target="11" />
       <module name="redis-spring-boot-starter" target="11" />
+      <module name="SpringBoot-actuator" target="11" />
+      <module name="SpringBoot-Admin-client" target="11" />
+      <module name="SpringBoot-Admin-server" target="11" />
       <module name="SpringBoot-condition" target="11" />
       <module name="SpringBoot-config" target="11" />
       <module name="SpringBoot-enable" target="11" />
       <module name="SpringBoot-enable-other" target="11" />
       <module name="SpringBoot-helloworld" target="1.8" />
       <module name="SpringBoot-int" target="11" />
+      <module name="SpringBoot-listener" target="11" />
       <module name="SpringBoot-MyBatis" target="11" />
       <module name="SpringBoot-profiles" target="11" />
       <module name="SpringBoot-Redis" target="11" />
@@ -37,14 +45,18 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringBoot-Admin-client" options="-parameters" />
+      <module name="SpringBoot-Admin-server" options="-parameters" />
       <module name="SpringBoot-MyBatis" options="-parameters" />
       <module name="SpringBoot-Redis" options="-parameters" />
+      <module name="SpringBoot-actuator" options="-parameters" />
       <module name="SpringBoot-condition" options="-parameters" />
       <module name="SpringBoot-config" options="-parameters" />
       <module name="SpringBoot-enable" options="-parameters" />
       <module name="SpringBoot-enable-other" options="-parameters" />
       <module name="SpringBoot-helloworld" options="-parameters" />
       <module name="SpringBoot-int" options="-parameters" />
+      <module name="SpringBoot-listener" options="-parameters" />
       <module name="SpringBoot-profiles" options="-parameters" />
       <module name="SpringBoot-test" options="-parameters" />
       <module name="redis-spring-boot-autoconfigure" options="-parameters" />

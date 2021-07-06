@@ -3,14 +3,18 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringBoot.iml" filepath="$PROJECT_DIR$/.idea/SpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-Admin-client/SpringBoot-Admin-client.iml" filepath="$PROJECT_DIR$/SpringBoot-Admin-client/SpringBoot-Admin-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-Admin-server/SpringBoot-Admin-server.iml" filepath="$PROJECT_DIR$/SpringBoot-Admin-server/SpringBoot-Admin-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-MyBatis/SpringBoot-MyBatis.iml" filepath="$PROJECT_DIR$/SpringBoot-MyBatis/SpringBoot-MyBatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-Redis/SpringBoot-Redis.iml" filepath="$PROJECT_DIR$/SpringBoot-Redis/SpringBoot-Redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-actuator/SpringBoot-actuator.iml" filepath="$PROJECT_DIR$/SpringBoot-actuator/SpringBoot-actuator.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-condition/SpringBoot-condition.iml" filepath="$PROJECT_DIR$/SpringBoot-condition/SpringBoot-condition.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-config/SpringBoot-config.iml" filepath="$PROJECT_DIR$/SpringBoot-config/SpringBoot-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-enable/SpringBoot-enable.iml" filepath="$PROJECT_DIR$/SpringBoot-enable/SpringBoot-enable.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-enable-other/SpringBoot-enable-other.iml" filepath="$PROJECT_DIR$/SpringBoot-enable-other/SpringBoot-enable-other.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-helloworld/SpringBoot-helloworld.iml" filepath="$PROJECT_DIR$/SpringBoot-helloworld/SpringBoot-helloworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-int/SpringBoot-int.iml" filepath="$PROJECT_DIR$/SpringBoot-int/SpringBoot-int.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-listener/SpringBoot-listener.iml" filepath="$PROJECT_DIR$/SpringBoot-listener/SpringBoot-listener.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-profiles/SpringBoot-profiles.iml" filepath="$PROJECT_DIR$/SpringBoot-profiles/SpringBoot-profiles.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-test/SpringBoot-test.iml" filepath="$PROJECT_DIR$/SpringBoot-test/SpringBoot-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis-spring-boot-autoconfigure/redis-spring-boot-autoconfigure.iml" filepath="$PROJECT_DIR$/redis-spring-boot-autoconfigure/redis-spring-boot-autoconfigure.iml" />

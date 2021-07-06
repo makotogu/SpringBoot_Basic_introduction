@@ -45,9 +45,49 @@
 
 ### SpringBoot监听机制
 
+#### Java监听机制
+
+* SpringBoot的监听机制，其实是对Java提供的事件监听机制的封装
+* Java中的事件监听机制定义了以下几个角色
+  1. 事件：Event，继承java.util.EventObject类的对象
+  2. 事件源：Source，任意对象Object
+  3. 监听器：Listener，实现java.util.EventListener接口的对象
+
+#### SpringBoot 监听机制
+
+* SpringBoot在项目启动时，会对几个监听器进行回调，我们可以实现这些监听器接口，在项目启动时完成一些操作
+* ApplicationContextInitializer、SpringApplicationRunListener、CommandLineRunner、ApplicationRunner
+
 ### SpringBoot启动流程分析
+
+![SpringBoot启动流程](D:\Java_SSM\SpringBoot\note\SpringBoot启动流程.png)
 
 ## SpringBoot监控
 
+### SpringBoot监控概述
+
+* SpringBoot自带监控功能Actuator，可以帮助实现对程序内部运行情况监控，比如监控状况、Bean加载情况、配置属性、日志信息等
+
+### SpringBoot监控 Spring Boot Admin
+
+* Spring Boot Admin是一个开源社区项目 用于管理和监控SpringBoot应用程序
+* Spring Boot Admin有两个角色，客户端(Client)和服务端(Server)
+* 应用程序作为Spring Boot Admin Client 向Spring Boot Admin Server注册
+* Spring Boot Admin Server 的UI界面将Spring Boot Admin Client 的Actuator Endpoint上的一些监控信息
+* 使用步骤
+  * admin-server
+    1. 创建admin-server模块
+    2. 导入依赖坐标admin-starter-server
+    3. 在引导类上启用监控功能@EnableAdminServer
+  * admin-client
+    1. 创建admin-client模块
+    2. 导入依赖坐标admin-starter-client
+    3. 配置相关信息：server地址等
+    4. 启动server和client服务，访问server
+
 ## SpringBoot项目部署
+
+* SpringBoot项目开发完毕后，支持两种方式部署到服务器：
+  1. jar（官方推荐）
+  2. war
 
