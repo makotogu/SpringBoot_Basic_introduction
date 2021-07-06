@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/SpringBoot-Redis/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot-MyBatis/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot-condition/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-enable/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-enable-other/pom.xml" />
       </list>
     </option>
   </component>

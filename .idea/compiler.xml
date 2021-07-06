@@ -9,6 +9,8 @@
         <module name="SpringBoot-test" />
         <module name="SpringBoot-config" />
         <module name="SpringBoot-MyBatis" />
+        <module name="SpringBoot-enable" />
+        <module name="SpringBoot-enable-other" />
         <module name="SpringBoot-helloworld" />
         <module name="SpringBoot-Redis" />
         <module name="SpringBoot-int" />
@@ -19,6 +21,8 @@
     <bytecodeTargetLevel target="11">
       <module name="SpringBoot-condition" target="11" />
       <module name="SpringBoot-config" target="11" />
+      <module name="SpringBoot-enable" target="11" />
+      <module name="SpringBoot-enable-other" target="11" />
       <module name="SpringBoot-helloworld" target="1.8" />
       <module name="SpringBoot-int" target="11" />
       <module name="SpringBoot-MyBatis" target="11" />
@@ -33,6 +37,8 @@
       <module name="SpringBoot-Redis" options="-parameters" />
       <module name="SpringBoot-condition" options="-parameters" />
       <module name="SpringBoot-config" options="-parameters" />
+      <module name="SpringBoot-enable" options="-parameters" />
+      <module name="SpringBoot-enable-other" options="-parameters" />
       <module name="SpringBoot-helloworld" options="-parameters" />
       <module name="SpringBoot-int" options="-parameters" />
       <module name="SpringBoot-profiles" options="-parameters" />

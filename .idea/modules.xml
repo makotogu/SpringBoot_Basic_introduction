@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-Redis/SpringBoot-Redis.iml" filepath="$PROJECT_DIR$/SpringBoot-Redis/SpringBoot-Redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-condition/SpringBoot-condition.iml" filepath="$PROJECT_DIR$/SpringBoot-condition/SpringBoot-condition.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-config/SpringBoot-config.iml" filepath="$PROJECT_DIR$/SpringBoot-config/SpringBoot-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-enable/SpringBoot-enable.iml" filepath="$PROJECT_DIR$/SpringBoot-enable/SpringBoot-enable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-enable-other/SpringBoot-enable-other.iml" filepath="$PROJECT_DIR$/SpringBoot-enable-other/SpringBoot-enable-other.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-helloworld/SpringBoot-helloworld.iml" filepath="$PROJECT_DIR$/SpringBoot-helloworld/SpringBoot-helloworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-int/SpringBoot-int.iml" filepath="$PROJECT_DIR$/SpringBoot-int/SpringBoot-int.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-profiles/SpringBoot-profiles.iml" filepath="$PROJECT_DIR$/SpringBoot-profiles/SpringBoot-profiles.iml" />
