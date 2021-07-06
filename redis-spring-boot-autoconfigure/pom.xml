@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>SpringBoot-enable</artifactId>
+    <artifactId>redis-spring-boot-autoconfigure</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>SpringBoot-enable</name>
+    <name>redis-spring-boot-autoconfigure</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>11</java.version>
@@ -21,33 +21,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
-
+        <!--引入jedis依赖-->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>com.example</groupId>
-            <artifactId>SpringBoot-enable-other</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <!--自定义的redis-starter-->
-        <dependency>
-            <groupId>com.example</groupId>
-            <artifactId>redis-spring-boot-starter</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>

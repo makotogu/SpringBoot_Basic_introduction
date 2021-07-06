@@ -13,6 +13,8 @@
         <option value="$PROJECT_DIR$/SpringBoot-condition/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot-enable/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot-enable-other/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-spring-boot-autoconfigure/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-spring-boot-starter/pom.xml" />
       </list>
     </option>
   </component>

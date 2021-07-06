@@ -29,6 +29,20 @@
   3. 导入ImportSelector实现类，一般用于加载配置文件中的类
   4. 导入ImportBeanDefinitionRegistrar实现类
 
+### @EnableAutoConfiguration 注解
+
+* @EnableAutoConfiguration注解内部使用@Import(AutoConfigurationImportSelector.class)来加载配置类。
+* 配置文件位置：META-INF/spring.factories，该配置文件中定义了大量的配置类，当SpringBoot启动时，会自动加载这些配置类，初始化Bean
+* 并不是所有的Bean都会被初始化，在配置类中使用Condition来加载满足条件的Bean
+
+### 案例需求：
+
+* 自定义redis-starter，要求当导入redis坐标时，SpringBoot自动创建Jedis的Bean
+* 实现步骤
+  1. 创建redis-spring-boot-autoconfigure模块
+  2. 创建redis-spring-boot-starter模块，依赖redis-spring-boot-autoconfigure模块
+  3. 在redis-spring-boot-autoconfigure模块中初始化Jedis的bean，并定义META-INF/spring.factories文件
+
 ### SpringBoot监听机制
 
 ### SpringBoot启动流程分析

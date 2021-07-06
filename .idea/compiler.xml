@@ -12,13 +12,17 @@
         <module name="SpringBoot-enable" />
         <module name="SpringBoot-enable-other" />
         <module name="SpringBoot-helloworld" />
+        <module name="redis-spring-boot-starter" />
         <module name="SpringBoot-Redis" />
+        <module name="redis-spring-boot-autoconfigure" />
         <module name="SpringBoot-int" />
         <module name="SpringBoot-profiles" />
         <module name="SpringBoot-condition" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
+      <module name="redis-spring-boot-autoconfigure" target="11" />
+      <module name="redis-spring-boot-starter" target="11" />
       <module name="SpringBoot-condition" target="11" />
       <module name="SpringBoot-config" target="11" />
       <module name="SpringBoot-enable" target="11" />
@@ -43,6 +47,8 @@
       <module name="SpringBoot-int" options="-parameters" />
       <module name="SpringBoot-profiles" options="-parameters" />
       <module name="SpringBoot-test" options="-parameters" />
+      <module name="redis-spring-boot-autoconfigure" options="-parameters" />
+      <module name="redis-spring-boot-starter" options="-parameters" />
     </option>
   </component>
 </project>
